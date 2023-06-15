@@ -30,14 +30,10 @@ class RunMethod:
         return res
 
 
-
-
-
 if __name__ == '__main__':
     url = 'www.baidu.com'
 
     data = {
-
 
     }
     run = RunMethod()
