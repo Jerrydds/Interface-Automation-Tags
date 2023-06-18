@@ -31,10 +31,10 @@ class RunMethod:
 
 
 if __name__ == '__main__':
-    url = 'www.baidu.com'
+    url = 'http://www.imooc.com/m/web/shizhanapi/loadmorepingjia.html'
 
     data = {
-
+          'cart': '0'
     }
     run = RunMethod()
-    print(run.run_main(url, data))
+    print(run.run_main('POST', url, data))
