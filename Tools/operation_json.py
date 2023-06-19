@@ -1,8 +1,7 @@
 import json
 import os
 
-current_dir = os.path.dirname(os.path.abspath(__file__))
-root_path = os.path.dirname(current_dir)
+root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 class OperationJson:

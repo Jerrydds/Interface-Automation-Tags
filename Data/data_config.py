@@ -1,17 +1,17 @@
 class global_var:
     # case_id
-    Id = 0
-    request_name = 1
-    url = 2
-    run = 3
-    request_way = 4
-    header = 5
-    case_depend = 6
-    data_depend = 7
-    field_depend = 8
-    data = 9
-    expect = 10
-    result = 11
+    Id = 1
+    request_name = 2
+    url = 3
+    run = 4
+    request_way = 5
+    header = 6
+    case_depend = 7
+    data_depend = 8
+    field_depend = 9
+    data = 10
+    expect = 11
+    result = 12
 
 
 # 获取caseid

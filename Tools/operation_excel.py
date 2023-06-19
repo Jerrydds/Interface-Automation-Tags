@@ -1,8 +1,7 @@
 import xlrd, openpyxl
 import os
 
-current_dir = os.path.dirname(os.path.abspath(__file__))
-root_path = os.path.dirname(current_dir)
+root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 class OperationExcel:
@@ -12,7 +11,7 @@ class OperationExcel:
             self.sheet_id = sheet_id
         else:
             self.file_name = root_path + '/Datapools/interface.xlsx'
-            self.sheet_id = sheet_id
+            self.sheet_id = 0
         self.data = self.get_data()
 
     # 获取哪张sheet的内容
