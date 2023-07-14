@@ -31,10 +31,13 @@ class RunMethod:
 
 
 if __name__ == '__main__':
-    url = 'http://www.imooc.com/m/web/shizhanapi/loadmorepingjia.html'
+    url = 'https://api.17track.net/track/v1/register'
 
-    data = {
-          'cart': '0'
-    }
+    data = [{
+        "number": "SYRM134693899",
+        "carrier": 190072}]
+
+    header = {"Content-Type": "application/json;charset=utf-8", "17token": "AC3BEC6BB65183D40A68B22AF178FFA3"}
+
     run = RunMethod()
-    print(run.run_main('POST', url, data))
+    print(run.run_main('POST', url, data, header))

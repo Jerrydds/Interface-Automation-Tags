@@ -18,7 +18,7 @@ class RunTest:
         res = None
         # 获取excel行数,也就是case条数
         rows_count = self.data.get_case_lines()
-        for i in range(1, rows_count):
+        for i in range(2, rows_count):
             # caseId = self.data.get_caseId(i)
             url = self.data.get_request_url(i)
             method = self.data.get_request_method(i)

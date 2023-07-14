@@ -17,9 +17,14 @@
     "SourceType": "1",
     "Method": "GetSearchDataList"
   },
-  "data3": {
-    "cart": "13"
-  },
+  "data3":
+  [
+    {
+      "number": "UU515721056CN",
+      "carrier": 190072
+    }
+  ],
+
   "data4": {
     "cart": "14"
   },

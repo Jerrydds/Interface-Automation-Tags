@@ -41,7 +41,7 @@ def get_header():
 
 # 获取header默认值
 def get_header_value():
-    return {"Content-Type": "application/json;charset=utf-8"}
+    return {"Content-Type": "application/json;charset=utf-8", "17token": "AC3BEC6BB65183D40A68B22AF178FFA3"}
 
 
 # 获取依赖case_id
